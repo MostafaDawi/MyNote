@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LoginActivity"
+    android:background="@drawable/background_login_layout">
+
+    <TextView
+        android:id="@+id/titleLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MyNote"
+        android:textSize="@dimen/_50ssp"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/ubuntu_medium"
+        android:includeFontPadding="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/layoutLogin"
+        android:layout_marginBottom="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_60sdp"/>
+
+    <ImageView
+        android:id="@+id/imageBackLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:src="@drawable/ic_back"
+        app:layout_constraintEnd_toStartOf="@id/titleLogin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tint="@color/colorWhite"
+        app:layout_constraintTop_toTopOf="@id/titleLogin" />
+
+    <LinearLayout
+        android:id="@+id/layoutLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:background="@drawable/background_login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <EditText
+            android:id="@+id/textUserReg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@drawable/background_search_login"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:hint="Enter your username"
+            android:inputType="text"
+            android:paddingStart="@dimen/_12sdp"
+            android:textColorHint="@color/colorIcons"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/ubuntu_regular"
+            app:layout_constraintTop_toTopOf= "parent"/>
+
+        <EditText
+            android:id="@+id/textPassReg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@drawable/background_search_login"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:hint="Enter your password"
+            android:inputType="textPassword"
+            android:paddingStart="@dimen/_12sdp"
+            android:textColorHint="@color/colorIcons"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/ubuntu_regular"
+            app:layout_constraintTop_toBottomOf="@id/textUserReg" />
+
+        <EditText
+            android:id="@+id/confirmPass"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@drawable/background_search_login"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:hint="Enter your password"
+            android:inputType="textPassword"
+            android:paddingStart="@dimen/_12sdp"
+            android:textColorHint="@color/colorIcons"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/ubuntu_regular"
+            app:layout_constraintTop_toBottomOf="@id/textPassReg" />
+
+        <TextView
+            android:id="@+id/registerButton"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:padding="@dimen/_6sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_17ssp"
+            android:fontFamily="@font/ubuntu_bold"
+            android:background="@color/colorIcons"
+            android:includeFontPadding="false"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_40sdp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

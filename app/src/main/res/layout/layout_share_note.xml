@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutDeleteNoteContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_dialog"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/_15sdp">
+
+    <ImageView
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:src="@drawable/ic_delete"
+        app:tint="@color/colorWhite"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        app:layout_constraintTop_toTopOf="@id/layoutDeleteNoteContainer"
+        app:layout_constraintStart_toStartOf="@id/layoutDeleteNoteContainer"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Note"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_13sdp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        app:layout_constraintTop_toTopOf="@id/layoutDeleteNoteContainer"
+        app:layout_constraintStart_toStartOf="@id/layoutDeleteNoteContainer"
+        android:includeFontPadding="false"/>
+
+    <TextView
+        android:id="@+id/textDelQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:text="Are you sure you want to delete this note?"
+        android:textSize="@dimen/_13ssp"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/ubuntu_medium"
+        app:layout_constraintBottom_toBottomOf="@id/layoutDeleteNoteContainer"
+        app:layout_constraintTop_toTopOf="@id/layoutDeleteNoteContainer" />
+
+    <TextView
+        android:id="@+id/textYes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:textColor="@color/colorNoteColor2"
+        android:textSize="@dimen/_16sdp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:includeFontPadding="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textDelQ"
+        android:layout_margin="@dimen/_25sdp"/>
+
+    <TextView
+        android:id="@+id/textNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:text="No"
+        android:textColor="@color/colorNoteColor2"
+        android:textSize="@dimen/_16sdp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:includeFontPadding="false"
+        app:layout_constraintEnd_toStartOf="@id/textYes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textDelQ"
+        android:layout_margin="@dimen/_25sdp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

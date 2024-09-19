@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/UserDetailsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Details"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_30ssp"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/UserDetailsImage"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_40ssp"
+        android:src="@drawable/profile_pic"
+        app:layout_constraintTop_toBottomOf="@id/UserDetailsTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:riv_corner_radius="@dimen/_15sdp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/UserDetailsUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_20ssp"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:layout_constraintTop_toBottomOf="@id/UserDetailsImage"/>
+
+    <TextView
+        android:id="@+id/AddUser"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="wrap_content"
+        android:text="Add User"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/background_note"
+        android:visibility="visible"
+        android:textSize="@dimen/_20ssp"
+        android:padding="@dimen/_7sdp"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/_80sdp"
+        app:layout_constraintTop_toBottomOf="@id/UserDetailsUser"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/RemoveUser"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="wrap_content"
+        android:text="Remove User"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/background_note"
+        android:visibility="gone"
+        android:textSize="@dimen/_20ssp"
+        android:padding="@dimen/_7sdp"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/_80sdp"
+        app:layout_constraintTop_toBottomOf="@id/UserDetailsUser"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable-v24/background_login_1.xml" value="0.17560137457044672" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/backgroud_add_buttom.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/backgroud_note_color_1.xml" value="0.17743055555555556" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/backgroud_note_color_2.xml" value="0.17743055555555556" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/backgroud_note_color_3.xml" value="0.17743055555555556" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/backgroud_note_color_4.xml" value="0.17743055555555556" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/backgroud_note_color_5.xml" value="0.17743055555555556" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/background_dele.xml" value="0.17743055555555556" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/background_dialog.xml" value="0.17743055555555556" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/background_done_button.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/background_login.xml" value="0.17560137457044672" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/background_login_layout.xml" value="0.17560137457044672" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/background_misc.xml" value="0.17743055555555556" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/background_note.xml" value="0.17743055555555556" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/background_note_color_1.xml" value="0.17743055555555556" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/background_note_color_2.xml" value="0.17743055555555556" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/background_note_color_3.xml" value="0.17743055555555556" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/background_note_color_4.xml" value="0.17743055555555556" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/background_note_color_5.xml" value="0.17743055555555556" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/background_search.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/background_search_login.xml" value="0.17743055555555556" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/background_subtitle_indicator.xml" value="0.21837606837606838" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/ic_done.xml" value="0.17743055555555556" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/ic_image.xml" value="0.17743055555555556" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/ic_list_1.xml" value="0.17560137457044672" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/drawable/ic_list_2.xml" value="0.10625" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/layout/activity_create_note.xml" value="0.2" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/layout/activity_friends.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/layout/activity_layout.xml" value="0.264" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/layout/activity_main2.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/layout/activity_profile.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/layout/activity_settings.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/layout/fragment_profile.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/layout/fragment_profile2.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/layout/item_container_note.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/layout/item_container_note_1.xml" value="0.176" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/layout/item_container_note_2.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/layout/item_container_user.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/layout/layout_add_url.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/layout/layout_change_pass.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/layout/layout_delete_account.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/layout/layout_delete_note.xml" value="0.2" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/layout/layout_login_screen.xml" value="0.16494845360824742" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/layout/layout_misc.xml" value="0.176" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/layout/layout_nav_header.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/layout/layout_register_screen.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/layout/layout_share_note.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/layout/user_details.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/mosta/AndroidStudioProjects/NotesApp/app/src/main/res/menu/nav_menu.xml" value="0.16666666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="android.annotation.SuppressLint" />
+    </list>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/_20sdp"
+    android:background="@color/grey">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/profilePic"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:src="@drawable/profile_pic"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/profileText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Unknown"
+        android:textColor="@color/black"
+        android:fontFamily="@font/ubuntu_bold"
+        android:textSize="@dimen/_14ssp"
+        android:includeFontPadding="false"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:layout_constraintStart_toEndOf="@id/profilePic"
+        app:layout_constraintTop_toTopOf="@id/profilePic"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

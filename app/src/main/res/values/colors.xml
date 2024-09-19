@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#2b2b2b</color>
+    <color name="colorPrimDark">#292929</color>
+    <color name="colorAccent">#fdbe3b</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteGrad">#DDDDDD</color>
+    <color name="colorSearchIcon">#DBDBDB</color>
+    <color name="colorTextHint">#7b7b7b</color>
+    <color name="colorQuickActionsBackground">#2f2d2e</color>
+    <color name="colorQuickActionsBackgroundGrad">#9f9d9e</color>
+    <color name="colorIcons">#a4a4a4</color>
+    <color name="colorTextSub">#E4E4E4</color>
+    <color name="colorDefNoteColo">#333333</color>
+    <color name="colorMiscBack">#1f1f1f</color>
+    <color name="colorNoteSubText">#a1a1a1</color>
+    <color name="colorNoteColor2">#edae3d</color>
+    <color name="colorNoteColor3">#ea5654</color>
+    <color name="colorNoteColor4">#3a62dc</color>
+    <color name="colorNoteColor5">#141711</color>
+    <color name="colorDel">#ff4842</color>
+    <color name="colorSearchBack">#333333</color>
+    <color name="colorLogin">#0CFEFEFF</color>
+    <color name="grey">#646464</color>
+    <color name="profile_background">#454545</color>
+
+    <color name="color_login_layout">#222327</color>
+</resources>
