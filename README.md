@@ -86,7 +86,7 @@
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/username/MyNote.git
+    git clone https://github.com/MostafaDawi/MyNote.git
     ```
     
 2. **Open in Android Studio**:
