@@ -81,13 +81,13 @@
 ## Screenshots
 
 ![Main Activity](MainNotes.png)
-*Main Activity of the app*
+**Main Activity of the app**
 
 ![Create and Edit](Edit.png)
-*Creating or editing a note*
+**Creating or editing a note**
 
 ![Export](PDF.png)
-*Exporting a note as PDF file*
+**Exporting a note as PDF file**
 
 ## Installation and Setup
 
