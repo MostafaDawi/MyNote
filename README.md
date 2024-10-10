@@ -80,14 +80,14 @@
 
 ## Screenshots
 
-<img src="MainNotes.png" alt="Main Activity" width="500"/>
-**Main Activity of the app**
+<img src="MainNotes.png" alt="Main Activity" width="150"/>
+<p><strong>Main Activity of the app</strong></p>
 
-![Create and Edit](Edit.png)
-**Creating or editing a note**
+<img src="Edit.png" alt="Create and Edit" width="150"/>
+<p><strong>Createing or editing the note</strong></p>
 
-![Export](PDF.png)
-**Exporting a note as PDF file**
+<img src="PDF.png" alt="Export" width="150"/>
+<p><strong>Exporting the note as a pdf file</strong></p>
 
 ## Installation and Setup
 
