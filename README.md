@@ -80,7 +80,7 @@
 
 ## Screenshots
 
-![Main Activity](MainNotes.png)
+<img src="MainNotes.png" alt="Main Activity" width="500"/>
 **Main Activity of the app**
 
 ![Create and Edit](Edit.png)
