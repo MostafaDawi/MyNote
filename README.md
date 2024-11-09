@@ -1,6 +1,6 @@
 # MyNote - Mobile Note-Taking App
 
-**MyNote** is a powerful, flexible mobile application designed for efficient note-taking, management, and sharing. Tailored to meet the needs of students, professionals, and individuals alike, MyNote offers a streamlined experience to enhance productivity.
+**MyNote** is a powerful, flexible mobile application designed for taking, managing, and sharing notes. Tailored to meet the needs of students, professionals, and individuals alike, MyNote offers a streamlined experience to enhance productivity.
 
 ## Key Features
 
@@ -20,14 +20,13 @@
 ## Technical Specifications
 
 - **Development Environment**: 
-  - Built using Android Studio with MVVM (Model-View-ViewModel) architecture for clean code separation.
+  - Built using Android Studio with MVC (Model-View-Controller) architecture for clean code separation.
   
 - **Database**: 
-  - Room Database used for local data storage (notes, users, and friendships).
+  - Room Database used for local data storage (notes, users, and friends).
   
 - **Security**: 
   - User passwords are hashed with BCrypt for secure storage.
-  - User sessions managed with tokens, preventing unauthorized access.
 
 ## How to Use
 
