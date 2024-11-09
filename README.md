@@ -83,10 +83,10 @@
 <p><strong>Main Activity of the app</strong></p>
 
 <img src="Edit.png" alt="Create and Edit" width="150"/>
-<p><strong>Createing or editing the note</strong></p>
+<p><strong>Creating or editing the note</strong></p>
 
 <img src="PDF.png" alt="Export" width="150"/>
-<p><strong>Exporting the note as a pdf file</strong></p>
+<p><strong>Exporting the note as a PDF file</strong></p>
 
 ## Installation and Setup
 
