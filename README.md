@@ -1,4 +1,4 @@
-# MyNote - Mobile Note-Taking App
+# MyNote - Mobile Application
 
 **MyNote** is a powerful, flexible mobile application designed for taking, managing, and sharing notes. Tailored to meet the needs of students, professionals, and individuals alike, MyNote offers a streamlined experience to enhance productivity.
 
